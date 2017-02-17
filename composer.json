@@ -1,0 +1,26 @@
+{
+  "name": "vundb/sandbox-tdd",
+  "license": "MIT",
+  "type": "project",
+  "description": "",
+  "autoload": {
+    "psr-4": {
+      "Demo\\": "src/Demo/",
+      "DemoTest\\": "src/DemoTest/"
+    }
+  },
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6.0.*"
+  },
+  "authors": [
+    {
+      "name": "Viktor Breitenbuecher",
+      "email": "vic.b@outlook.com"
+    }
+  ],
+  "config": {
+    "bin-dir": "bin"
+  }
+}
